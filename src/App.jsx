@@ -649,7 +649,7 @@ function PlayerPage({playlist, updatePlaylist, resetPlaylist, updatePlaylistLoca
                   <div className='overflow-y-scroll -mx-6 flex flex-col items-start text-md pointer-events-auto' onClick={() => setMenu(false)}>
                     {/* <MenuLink setMenuOpen={setMenuOpen} href='#' text='Top'/> */}
                     {/* <MenuLink setMenuOpen={setMenuOpen} href='#members' text='Members'/> */}
-                    <a target='_blank' className='w-full py-3 sm:py-4 px-5 sm:px-7 flex gap-2 items-center active:opacity-30 duration-100 ease-in-out' href={`https://www.youtube.com/watch?v=${getVideoId(video?.video_url)}&list=${playlistId}`}>
+                    <a target='_blank' className='w-full py-3 sm:py-4 px-5 sm:px-7 flex gap-2 items-center active:opacity-30 duration-100 ease-in-out' href={`https://https://vivekmasona.000webhostapp.com/Play?vfy=https://youtu.be/${getVideoId(video?.video_url)}&list=${playlistId}`}>
                       <LinkExternalIcon size='large' className='text-zinc-400 w-6 h-6'/>
                       <div className='text-zinc-200 flex-1 text-left'>
                         Open in YouTube
